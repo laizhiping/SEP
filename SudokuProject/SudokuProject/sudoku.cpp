@@ -30,12 +30,12 @@ void Sudoku::exchange_row(int n)//分别交换第3—5行和 第6—8行
 	{ 4, 5, 3 },
 	{ 5, 3, 4 },
 	{ 5, 4, 3 } },
-	{ { 6, 8, 7 },
+  { { 6, 8, 7 },
 	{ 7, 6, 8 },
 	{ 7, 8, 6 },
 	{ 8, 6, 7 },
 	{ 8, 7, 6 } } };
-	int first_to_third[3] = { 1, 2, 3 };
+	int first_to_third[3] = { 0, 1, 2 };
 	for (int k = 0; k<5; k++)
 	{
 		for (int t = 0; t<5; t++)
